@@ -1,0 +1,49 @@
+# Скомпилированные / оптимизированные / DLL файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C-расширения
+*.so
+
+# Файлы дистрибуции / упаковки
+.Python
+env/
+venv/
+ENV/
+.env
+*.egg-info/
+dist/
+build/
+
+# Файлы базы данных SQLite
+*.db
+*.sqlite3
+
+# Логи и отладка
+*.log
+*.pid
+*.gz
+
+# Файлы, специфичные для IDE
+.idea/
+.vscode/
+
+# Файлы, специфичные для Docker
+*.env
+.dockerignore
+
+# Файлы, созданные ОС
+.DS_Store
+Thumbs.db
+
+# Выводы тестирования
+htmlcov/
+.coverage
+*.cover
+
+# Автогенерируемая документация FastAPI
+*.json
+
+# Виртуальное окружение Python
+pip-wheel-metadata/
